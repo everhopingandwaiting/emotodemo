@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_frame"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="60dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名    admin"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="车主电话    15620608888"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="车辆品牌"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="车辆型号    宝马"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="车架号      01"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="电机号        000000000000000000"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="设备号   865067020417682"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="车辆牌照            TJ88888"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="账号密码                                    点击修改密码"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+    </LinearLayout>
+</LinearLayout>

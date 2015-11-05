@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/location_vehicle_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+
+        />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/i_am_here"
+              android:text="签到"
+              />
+</LinearLayout>
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     >
+     <ProgressBar
+         android:id="@+id/progressbar"
+         style="@android:style/Widget.Material.ProgressBar.Large"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:indeterminate="true"
+         tools:targetApi="lollipop" />
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:id="@+id/request_curr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dip"
+            android:text="获取当前位置"
+            android:layout_alignParentBottom="true"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

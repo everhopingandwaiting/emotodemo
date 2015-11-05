@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btn"
+    android:src="@drawable/btn_frame"
+    />
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:id="@+id/icon"
+        android:src="@drawable/btn_battary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="车灯"
+        android:layout_below="@id/icon"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text"
+        />
+    <ImageView
+        android:id="@+id/car_status_icon"
+        android:layout_width="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="25dp"
+        android:src="@drawable/check"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

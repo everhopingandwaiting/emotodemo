@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/main_page_img" />
+
+    <LinearLayout
+        android:id="@+id/btn_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-100dp">
+
+        <ImageView
+            android:id="@+id/lock_on_start"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/lock_btn_on" />
+
+        <ImageView
+            android:id="@+id/lock_off_start"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/lock_btn_off" />
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/mySwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:showText="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_group"
+        android:textOn="ON"
+        android:textColor="@android:color/black"
+        android:textOff="OFF"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>

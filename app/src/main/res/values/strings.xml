@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">emotodemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanname">启动相机扫描..</string>
+    <string name="machineNum">请输入设备编号！</string>
+    <string name="startbtn">进入</string>
+    <string name="reg_label">点击注册</string>
+    <string name="reg_name">姓名：</string>
+    <string name="reg_psw">密码：</string>
+    <string name="reg_psw_confirm">确认密码：</string>
+    <string name="reg_email">邮箱：</string>
+    <string name="reg_addr">地址：</string>
+    <string name="reg_phone">电话：</string>
+    <string name="dev_num">设备号：00000000</string>
+</resources>

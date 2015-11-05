@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/cell"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        android:padding="5dp"
+        android:src="@drawable/grid_btn_location" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/cell_name"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="name"
+        android:textColor="#fff" />
+</RelativeLayout>
